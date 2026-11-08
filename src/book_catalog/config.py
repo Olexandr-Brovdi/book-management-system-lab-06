@@ -38,7 +38,7 @@ def load_config(path: Path) -> Config:
             return (path.resolve().parent / value).resolve()
 
         incoming, outgoing = resolve(raw["input"]), resolve(raw["output"])
-        if incoming == outgoing or outgoing == path.resolve():
+        if len({incoming, outgoing, path.resolve()}) != 3:
             raise ValueError("Input output and config paths must differ")
         return Config(policy, incoming, outgoing)
     except (
