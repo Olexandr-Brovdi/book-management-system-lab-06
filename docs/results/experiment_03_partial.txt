@@ -1,0 +1,18 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\outputs\book-management-system-lab-06\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\work\tmp\lab06-experiments-1pbyiea3
+configfile: pytest.ini
+plugins: asyncio-1.4.1.post1, cov-7.1.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=function, asyncio_default_test_loop_scope=function
+collecting ... collected 3 items / 1 deselected / 2 selected
+
+test_branch.py::test_large PASSED                                        [ 50%]
+test_branch.py::test_medium PASSED                                       [100%]
+
+- generated xml file: C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\work\tmp\lab06-experiments-1pbyiea3\experiment_03_partial.xml -
+=============================== tests coverage ================================
+______________ coverage: platform win32, python 3.12.14-final-0 _______________
+
+Coverage JSON written to file C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\work\tmp\lab06-experiments-1pbyiea3\partial.json
+======================= 2 passed, 1 deselected in 0.36s =======================

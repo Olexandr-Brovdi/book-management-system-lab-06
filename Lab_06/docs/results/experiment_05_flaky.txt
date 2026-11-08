@@ -1,0 +1,104 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\outputs\book-management-system-lab-06\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\work\tmp\lab06-experiments-1pbyiea3
+configfile: pytest.ini
+plugins: asyncio-1.4.1.post1, cov-7.1.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=function, asyncio_default_test_loop_scope=function
+collecting ... collected 20 items
+
+test_flaky.py::test_random_bad[0] FAILED                                 [  5%]
+test_flaky.py::test_random_bad[1] FAILED                                 [ 10%]
+test_flaky.py::test_random_bad[2] FAILED                                 [ 15%]
+test_flaky.py::test_random_bad[3] FAILED                                 [ 20%]
+test_flaky.py::test_random_bad[4] PASSED                                 [ 25%]
+test_flaky.py::test_random_bad[5] FAILED                                 [ 30%]
+test_flaky.py::test_random_bad[6] PASSED                                 [ 35%]
+test_flaky.py::test_random_bad[7] PASSED                                 [ 40%]
+test_flaky.py::test_random_bad[8] PASSED                                 [ 45%]
+test_flaky.py::test_random_bad[9] FAILED                                 [ 50%]
+test_flaky.py::test_random_bad[10] FAILED                                [ 55%]
+test_flaky.py::test_random_bad[11] FAILED                                [ 60%]
+test_flaky.py::test_random_bad[12] FAILED                                [ 65%]
+test_flaky.py::test_random_bad[13] FAILED                                [ 70%]
+test_flaky.py::test_random_bad[14] PASSED                                [ 75%]
+test_flaky.py::test_random_bad[15] PASSED                                [ 80%]
+test_flaky.py::test_random_bad[16] PASSED                                [ 85%]
+test_flaky.py::test_random_bad[17] PASSED                                [ 90%]
+test_flaky.py::test_random_bad[18] PASSED                                [ 95%]
+test_flaky.py::test_random_bad[19] PASSED                                [100%]
+
+================================== FAILURES ===================================
+_____________________________ test_random_bad[0] ______________________________
+test_flaky.py:6: in test_random_bad
+    assert rng.randint(1,2) == 1
+E   assert 2 == 1
+E    +  where 2 = randint(1, 2)
+E    +    where randint = <random.Random object at 0x0000020C624996A0>.randint
+_____________________________ test_random_bad[1] ______________________________
+test_flaky.py:6: in test_random_bad
+    assert rng.randint(1,2) == 1
+E   assert 2 == 1
+E    +  where 2 = randint(1, 2)
+E    +    where randint = <random.Random object at 0x0000020C624996A0>.randint
+_____________________________ test_random_bad[2] ______________________________
+test_flaky.py:6: in test_random_bad
+    assert rng.randint(1,2) == 1
+E   assert 2 == 1
+E    +  where 2 = randint(1, 2)
+E    +    where randint = <random.Random object at 0x0000020C624996A0>.randint
+_____________________________ test_random_bad[3] ______________________________
+test_flaky.py:6: in test_random_bad
+    assert rng.randint(1,2) == 1
+E   assert 2 == 1
+E    +  where 2 = randint(1, 2)
+E    +    where randint = <random.Random object at 0x0000020C624996A0>.randint
+_____________________________ test_random_bad[5] ______________________________
+test_flaky.py:6: in test_random_bad
+    assert rng.randint(1,2) == 1
+E   assert 2 == 1
+E    +  where 2 = randint(1, 2)
+E    +    where randint = <random.Random object at 0x0000020C624996A0>.randint
+_____________________________ test_random_bad[9] ______________________________
+test_flaky.py:6: in test_random_bad
+    assert rng.randint(1,2) == 1
+E   assert 2 == 1
+E    +  where 2 = randint(1, 2)
+E    +    where randint = <random.Random object at 0x0000020C624996A0>.randint
+_____________________________ test_random_bad[10] _____________________________
+test_flaky.py:6: in test_random_bad
+    assert rng.randint(1,2) == 1
+E   assert 2 == 1
+E    +  where 2 = randint(1, 2)
+E    +    where randint = <random.Random object at 0x0000020C624996A0>.randint
+_____________________________ test_random_bad[11] _____________________________
+test_flaky.py:6: in test_random_bad
+    assert rng.randint(1,2) == 1
+E   assert 2 == 1
+E    +  where 2 = randint(1, 2)
+E    +    where randint = <random.Random object at 0x0000020C624996A0>.randint
+_____________________________ test_random_bad[12] _____________________________
+test_flaky.py:6: in test_random_bad
+    assert rng.randint(1,2) == 1
+E   assert 2 == 1
+E    +  where 2 = randint(1, 2)
+E    +    where randint = <random.Random object at 0x0000020C624996A0>.randint
+_____________________________ test_random_bad[13] _____________________________
+test_flaky.py:6: in test_random_bad
+    assert rng.randint(1,2) == 1
+E   assert 2 == 1
+E    +  where 2 = randint(1, 2)
+E    +    where randint = <random.Random object at 0x0000020C624996A0>.randint
+- generated xml file: C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\work\tmp\lab06-experiments-1pbyiea3\experiment_05_flaky.xml -
+=========================== short test summary info ===========================
+FAILED test_flaky.py::test_random_bad[0] - assert 2 == 1
+FAILED test_flaky.py::test_random_bad[1] - assert 2 == 1
+FAILED test_flaky.py::test_random_bad[2] - assert 2 == 1
+FAILED test_flaky.py::test_random_bad[3] - assert 2 == 1
+FAILED test_flaky.py::test_random_bad[5] - assert 2 == 1
+FAILED test_flaky.py::test_random_bad[9] - assert 2 == 1
+FAILED test_flaky.py::test_random_bad[10] - assert 2 == 1
+FAILED test_flaky.py::test_random_bad[11] - assert 2 == 1
+FAILED test_flaky.py::test_random_bad[12] - assert 2 == 1
+FAILED test_flaky.py::test_random_bad[13] - assert 2 == 1
+======================== 10 failed, 10 passed in 0.38s ========================

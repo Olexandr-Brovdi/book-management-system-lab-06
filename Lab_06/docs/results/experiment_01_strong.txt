@@ -1,0 +1,24 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\outputs\book-management-system-lab-06\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\work\tmp\lab06-experiments-1pbyiea3
+configfile: pytest.ini
+plugins: asyncio-1.4.1.post1, cov-7.1.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=function, asyncio_default_test_loop_scope=function
+collecting ... collected 1 item
+
+test_strong.py::test_strong FAILED                                       [100%]
+
+================================== FAILURES ===================================
+_________________________________ test_strong _________________________________
+test_strong.py:5: in test_strong
+    assert average_pages([100,101,101]) == pytest.approx(302/3)
+E   assert 100 == 100.66666666666667 ± 1.0e-04
+E     
+E     comparison failed
+E     Obtained: 100
+E     Expected: 100.66666666666667 ± 1.0e-04
+- generated xml file: C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\work\tmp\lab06-experiments-1pbyiea3\experiment_01_strong.xml -
+=========================== short test summary info ===========================
+FAILED test_strong.py::test_strong - assert 100 == 100.66666666666667 ± 1.0e-04
+============================== 1 failed in 0.33s ==============================

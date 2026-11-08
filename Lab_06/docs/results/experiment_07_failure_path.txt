@@ -1,0 +1,20 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\outputs\book-management-system-lab-06\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\outputs\book-management-system-lab-06
+configfile: ..\..\work\tmp\lab06-experiments-1pbyiea3\pytest.ini
+plugins: asyncio-1.4.1.post1, cov-7.1.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=function, asyncio_default_test_loop_scope=function
+collecting ... collected 11 items / 9 deselected / 2 selected
+
+..\..\..\outputs\book-management-system-lab-06\tests\unit\test_services.py::test_report_uses_repository_return_value_and_exports_only_matches PASSED [ 50%]
+..\..\..\outputs\book-management-system-lab-06\tests\unit\test_services.py::test_repository_failure_prevents_export_interaction PASSED [100%]
+
+============================== warnings summary ===============================
+..\..\..\outputs\book-management-system-lab-06\tests\unit\test_services.py:11
+  C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\outputs\book-management-system-lab-06\tests\unit\test_services.py:11: PytestUnknownMarkWarning: Unknown pytest.mark.unit - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    pytestmark = pytest.mark.unit
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\work\tmp\lab06-experiments-1pbyiea3\experiment_07_failure_path.xml -
+================= 2 passed, 9 deselected, 1 warning in 0.30s ==================

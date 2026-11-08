@@ -1,0 +1,32 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\outputs\book-management-system-lab-06\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\work\tmp\lab06-experiments-1pbyiea3
+configfile: pytest.ini
+plugins: asyncio-1.4.1.post1, cov-7.1.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=function, asyncio_default_test_loop_scope=function
+collecting ... collected 20 items
+
+test_deterministic.py::test_random_controlled[0] PASSED                  [  5%]
+test_deterministic.py::test_random_controlled[1] PASSED                  [ 10%]
+test_deterministic.py::test_random_controlled[2] PASSED                  [ 15%]
+test_deterministic.py::test_random_controlled[3] PASSED                  [ 20%]
+test_deterministic.py::test_random_controlled[4] PASSED                  [ 25%]
+test_deterministic.py::test_random_controlled[5] PASSED                  [ 30%]
+test_deterministic.py::test_random_controlled[6] PASSED                  [ 35%]
+test_deterministic.py::test_random_controlled[7] PASSED                  [ 40%]
+test_deterministic.py::test_random_controlled[8] PASSED                  [ 45%]
+test_deterministic.py::test_random_controlled[9] PASSED                  [ 50%]
+test_deterministic.py::test_random_controlled[10] PASSED                 [ 55%]
+test_deterministic.py::test_random_controlled[11] PASSED                 [ 60%]
+test_deterministic.py::test_random_controlled[12] PASSED                 [ 65%]
+test_deterministic.py::test_random_controlled[13] PASSED                 [ 70%]
+test_deterministic.py::test_random_controlled[14] PASSED                 [ 75%]
+test_deterministic.py::test_random_controlled[15] PASSED                 [ 80%]
+test_deterministic.py::test_random_controlled[16] PASSED                 [ 85%]
+test_deterministic.py::test_random_controlled[17] PASSED                 [ 90%]
+test_deterministic.py::test_random_controlled[18] PASSED                 [ 95%]
+test_deterministic.py::test_random_controlled[19] PASSED                 [100%]
+
+- generated xml file: C:\Users\Admin\Documents\Codex\2026-11-07\https-github-com-dioden5-student-grading\work\tmp\lab06-experiments-1pbyiea3\experiment_05_deterministic.xml -
+============================= 20 passed in 0.29s ==============================
